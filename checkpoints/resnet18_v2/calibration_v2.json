@@ -1,0 +1,12 @@
+{
+  "model": "resnet18_v2",
+  "checkpoint": "checkpoints/resnet18_v2/resnet18_v2_best.pth",
+  "checkpoint_epoch": 4,
+  "temperature": 1.5373447810043472,
+  "calibration_images": 711,
+  "nll_before": 0.1223444864153862,
+  "nll_after": 0.1062934622168541,
+  "ece_before": 0.02282882566214539,
+  "ece_after": 0.012038574233883992,
+  "note": "Development calibration, not clinical validation."
+}

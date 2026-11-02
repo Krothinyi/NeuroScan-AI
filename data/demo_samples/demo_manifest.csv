@@ -1,0 +1,13 @@
+sample_id,filename,label,source_split
+glioma_01,glioma_01.png,glioma,validation
+glioma_02,glioma_02.png,glioma,validation
+glioma_03,glioma_03.png,glioma,validation
+meningioma_01,meningioma_01.png,meningioma,validation
+meningioma_02,meningioma_02.png,meningioma,validation
+meningioma_03,meningioma_03.png,meningioma,validation
+notumor_01,notumor_01.png,notumor,validation
+notumor_02,notumor_02.png,notumor,validation
+notumor_03,notumor_03.png,notumor,validation
+pituitary_01,pituitary_01.png,pituitary,validation
+pituitary_02,pituitary_02.png,pituitary,validation
+pituitary_03,pituitary_03.png,pituitary,validation

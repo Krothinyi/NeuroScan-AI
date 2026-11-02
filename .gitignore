@@ -1,0 +1,76 @@
+# ==========================================
+# NEUROSCAN AI - GITIGNORE
+# ==========================================
+
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Original and external datasets
+data/*
+
+# Allow selected demo assets only
+!data/demo_samples/
+data/demo_samples/*
+!data/demo_samples/demo_manifest.csv
+!data/demo_samples/*.png
+!data/demo_samples/*.jpg
+!data/demo_samples/*.jpeg
+
+# Original checkpoints and experimental weights
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.joblib
+
+checkpoints/*
+!checkpoints/resnet18_v2/
+checkpoints/resnet18_v2/*
+!checkpoints/resnet18_v2/resnet18_v2_best.pth
+!checkpoints/resnet18_v2/calibration_v2.json
+
+# Development reports and outputs
+reports/
+logs/
+outputs/
+archive/
+backups/
+
+# Notebooks require separate output/privacy review
+notebooks/
+
+# Temporary and backup files
+*.bak
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Editor configuration
+.vscode/
+.idea/
+
+# Training and historical implementations
+/training/
+/src/train.py
+/src/inference_stage3_backup.py
+
+# Training and historical implementations
+/training/
+/src/train.py
+/src/inference_stage3_backup.py
