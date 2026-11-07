@@ -1,5 +1,7 @@
 # NeuroScan AI
 
+**Live Demo:** [Launch NeuroScan AI](https://neuroscan-ai-5tudk4rtzpafqj3kzdhhiv.streamlit.app/)
+
 ### Explainable Brain MRI Classification Using Deep Learning
 
 NeuroScan AI is an educational AI application that classifies
