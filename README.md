@@ -131,8 +131,10 @@ should be checked before publishing them.
 
 - Model development: Complete for the V2 prototype
 - Streamlit demo: Functional
-- Four-class demo verification: Passed
-- Public deployment: In preparation
+- Four-class demo verification: Passed on four selected examples (functional smoke tests)
+- Public Streamlit demo: Live and anonymously accessible
+- GitHub source repository: Private
+- Clinical validation: Not performed
 
 ## Purpose
 
