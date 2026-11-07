@@ -137,3 +137,23 @@ should be checked before publishing them.
 This project demonstrates applied deep learning, model evaluation,
 dataset-bias investigation, explainability, calibration, and
 end-to-end AI application development.
+
+## Demo Image Provenance
+
+The 12 demo MRI images originate from the Brain Tumor MRI
+Dataset curated by Masoud Nickparvar on Kaggle:
+
+https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
+All 12 demo PNGs were matched to original JPEG source
+images using exact decoded RGB pixel comparison.
+
+The file `data/demo_samples/demo_manifest.csv` records
+each original source filename and verification status.
+
+The Kaggle dataset is listed under CC BY 4.0 and combines
+images from figshare, SARTAJ, and Br35H. Original dataset
+creators and applicable source permissions should be respected.
+
+These images are educational demonstration examples, not
+evidence of clinical validity or patient-independent testing.

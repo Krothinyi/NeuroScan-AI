@@ -1,13 +1,13 @@
-sample_id,filename,label,source_split
-glioma_01,glioma_01.png,glioma,validation
-glioma_02,glioma_02.png,glioma,validation
-glioma_03,glioma_03.png,glioma,validation
-meningioma_01,meningioma_01.png,meningioma,validation
-meningioma_02,meningioma_02.png,meningioma,validation
-meningioma_03,meningioma_03.png,meningioma,validation
-notumor_01,notumor_01.png,notumor,validation
-notumor_02,notumor_02.png,notumor,validation
-notumor_03,notumor_03.png,notumor,validation
-pituitary_01,pituitary_01.png,pituitary,validation
-pituitary_02,pituitary_02.png,pituitary,validation
-pituitary_03,pituitary_03.png,pituitary,validation
+sample_id,filename,label,source_split,source_dataset,source_file,pixel_match
+glioma_01,glioma_01.png,glioma,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/glioma/Tr-gl_280.jpg,exact_rgb
+glioma_02,glioma_02.png,glioma,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/glioma/Tr-gl_1120.jpg,exact_rgb
+glioma_03,glioma_03.png,glioma,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/glioma/Tr-gl_479.jpg,exact_rgb
+meningioma_01,meningioma_01.png,meningioma,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/meningioma/Tr-me_1035.jpg,exact_rgb
+meningioma_02,meningioma_02.png,meningioma,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/meningioma/Tr-me_1201.jpg,exact_rgb
+meningioma_03,meningioma_03.png,meningioma,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/meningioma/Tr-me_820.jpg,exact_rgb
+notumor_01,notumor_01.png,notumor,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/notumor/Tr-no_900.jpg,exact_rgb
+notumor_02,notumor_02.png,notumor,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/notumor/Tr-no_329.jpg,exact_rgb
+notumor_03,notumor_03.png,notumor,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/notumor/Tr-no_650.jpg,exact_rgb
+pituitary_01,pituitary_01.png,pituitary,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/pituitary/Tr-pi_626.jpg,exact_rgb
+pituitary_02,pituitary_02.png,pituitary,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/pituitary/Tr-pi_1106.jpg,exact_rgb
+pituitary_03,pituitary_03.png,pituitary,validation,Masoud Nickparvar Brain Tumor MRI Dataset,Training/pituitary/Tr-pi_787.jpg,exact_rgb
